@@ -121,8 +121,8 @@ h4 {
     background-color: transparent;
     height: 4px;
     width: 10px;
-    border: 50%;
-    box-shadow: 0px 0px 0px 0px white;
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 0px #A68A64;
     z-index: -1;
     transition: 400ms ease-in-out 0s;
 }
@@ -150,7 +150,41 @@ h4 {
     margin: 10px 0;
     text-decoration: none;
     text-transform: uppercase;
-    color: #582F0E;
+    color: #C2C5AA;
     letter-spacing: 4px;
+    font-size: 40px;
 }
 
+/* ANIMAÇÃO DAS BARRAS DO MENU */
+#toggle:checked + .checkbox .trace:nth-child(1) {
+    transform: rotate(45deg);
+    top: 41px;
+}
+
+#toggle:checked + .checkbox .trace:nth-child(2) {
+    transform: translate(-100px);
+    width: 30px;
+    visibility: hidden;
+    opacity: 0;
+}
+
+#toggle:checked + .checkbox .trace:nth-child(3) {
+    transform: rotate(-45deg);
+    top: 42px;
+}
+
+/* ANIMAÇÃO DE EXPANSÃO DO MENU */
+#toggle:checked ~ .menu {
+    background-color: #333D29;
+}
+
+#toggle:checked ~ .menu {
+    box-shadow: 0px 0px 0px 100vmax #333D29;
+    z-index: 1;
+}
+
+/* APARECIMENTO DO MENU ITENS */
+#toggle:checked ~ .menu-itens {
+    visibility: visible;
+    opacity: 1;
+}
