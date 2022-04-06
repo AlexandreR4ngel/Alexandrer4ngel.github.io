@@ -17,9 +17,14 @@ body {
     background-color: #C2C5AA;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+    /* justify-content: center; */
    /* position: relative; */
+}
+
+.tittle {
+    margin: auto;
+    width: 500px;
+    height: 120px;
 }
 
 h1 {
@@ -43,10 +48,9 @@ h4 {
 .nav-container {
     display: flex;
     justify-content: space-evenly;
-    width: 150px;
-    height: 30px;
+    width: 200px;
+    height: 50px;
     align-items: center;
-    border-top: 5px;
 }
 
 .nav-container a {
@@ -55,6 +59,7 @@ h4 {
     color: #582F0E;
     border: 1px solid #333D29;
     transition: .5s ease-in-out;
+    border-radius: 3px;
 }
 
 .nav-container a:hover {
@@ -85,8 +90,8 @@ h4 {
 
 /* BARRAS DO MENU */
 .checkbox .trace {
-    width: 70px;
-    height: 5px;
+    width: 40px;
+    height: 4px;
     background-color: #582F0E;
     position: absolute;
     border-radius: 4px;
@@ -99,12 +104,12 @@ h4 {
 }
 /* BARRAS DO MENU */
 .checkbox .trace:nth-child(2) {
-    top: 40px;
+    top: 35px;
     transform: rotate(0);
 }
 /* BARRAS DO MENU */
 .checkbox .trace:nth-child(3) {
-    top: 60px;
+    top: 50px;
     transform: rotate(0);
 }
 
