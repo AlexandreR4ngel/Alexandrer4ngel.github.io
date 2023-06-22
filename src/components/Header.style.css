@@ -1,0 +1,6 @@
+.SectionHeader {
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}

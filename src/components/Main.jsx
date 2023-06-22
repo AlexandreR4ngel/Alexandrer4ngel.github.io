@@ -1,6 +1,8 @@
+import './Main.style.css';
+
 export default function Main() {
     return (
-        <>
+        <div className="SectionMain">
             <div>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vehicula tristique luctus. 
                 Nunc porttitor justo mollis, imperdiet nunc vel, varius elit.Vivamus aliquet ex ut ex efficitur
@@ -14,6 +16,6 @@ export default function Main() {
             <div>
                 <h3>Projetos</h3>
             </div>
-        </>
+        </div>
     )
 }
