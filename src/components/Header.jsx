@@ -2,11 +2,11 @@ import { GrLinkedin, GrGithub } from 'react-icons/gr'; //https://react-icons.git
 
 export default function Header() {
     return (
-        <Header>
+        <div>
             <h2>Alexandre Magno Rangel</h2>
             <h3>Desenvolver web fullstack</h3>
             <GrLinkedin />
             <GrGithub />
-        </Header>
+        </div>
     )
 }
