@@ -2,6 +2,14 @@ body {
     margin: 0px;
     padding: 0px;
     background-color:#333333;
-    font-family: 'Montserrat', sans-serif;
-    color:darkgray;
+    font-family: 'Play', sans-serif;
+    color: whitesmoke;
+}
+
+h2 {
+    font-family: 'Play', sans-serif;
+}
+
+h3 {
+    font-family: 'Play', sans-serif;
 }
