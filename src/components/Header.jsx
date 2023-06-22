@@ -1,5 +1,3 @@
-import { GrLinkedin, GrGithub } from 'react-icons/gr'; //https://react-icons.github.io/react-icons/icons?name=gr
-
 export default function Header() {
     return (
         <div>
