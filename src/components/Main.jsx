@@ -3,7 +3,7 @@ import './Main.style.css';
 export default function Main() {
     return (
         <div className="SectionMain">
-            <div>
+            <div className='divSobre'>
                 <h3>Sobre</h3>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vehicula tristique luctus. 
@@ -13,8 +13,8 @@ export default function Main() {
                     lobortis odio. Morbi nec leo varius, iaculis dui eu, porttitor eros. Fusce blandit pellentesque consequat.
                 </p>
             </div>
-            <div>
-                <h3>Capacitação</h3>
+            <div className='divQuali'>
+                <h3>Qualificação</h3>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vehicula tristique luctus. 
                     Nunc porttitor justo mollis, imperdiet nunc vel, varius elit.Vivamus aliquet ex ut ex efficitur
@@ -23,7 +23,7 @@ export default function Main() {
                     lobortis odio. Morbi nec leo varius, iaculis dui eu, porttitor eros. Fusce blandit pellentesque consequat.
                 </p>
             </div>
-            <div>
+            <div className='divProjetos'>
                 <h3>Projetos</h3>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vehicula tristique luctus. 
