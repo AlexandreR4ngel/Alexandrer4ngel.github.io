@@ -7,13 +7,13 @@
 }
 
 /* .divSobre {
-    display: none;
+    transition:all 2s;
 }
 
 .divQuali {
-    display: none;
+    transition: all 1s;
 }
 
 .divProjetos {
-    display: none;
+    transition: all 1s;
 } */
