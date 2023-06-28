@@ -7,4 +7,34 @@
 
 h2 {
     margin-top: 15%;
+    font-size: 3rem;
+    font-weight: 100;
+    text-transform: uppercase;
 }
+
+.lineUp {
+    animation: 4s anim-lineUp ease-out;
+  }
+  .lineUp2 {
+    animation: 5s anim-lineUp ease-out;
+  }
+  .lineUp3 {
+    animation: 6s anim-lineUp ease-out;
+  }
+  @keyframes anim-lineUp {
+    0% {
+      opacity: 0;
+      transform: translateY(90%);
+    }
+    20% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
