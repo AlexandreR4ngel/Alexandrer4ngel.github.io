@@ -1,6 +1,7 @@
 // import { useEffect } from 'react';
 import './Header.style.css';
 import { BsLinkedin, BsGithub, BsInstagram, BsFillEnvelopeFill } from "react-icons/bs"; // https://react-icons.github.io/react-icons/icons?name=bs
+import { DiReact } from "react-icons/di";
 
 export default function Header() {
 
@@ -25,6 +26,7 @@ export default function Header() {
 
     return (
         <div className='SectionHeader'>
+            <DiReact className='iconReact' size={30}/>
             <div className='divHeader'>
                 {/* <button
                     value="divSobre"
@@ -47,7 +49,7 @@ export default function Header() {
                     Projetos
                 </button> */}
 
-                <a href="https://www.linkedin.com/in/alexandre-magno-rangel-193842222/" target="blank">
+                <a href="https://www.linkedin.com/in/alexandre-magno-rangel-193842222/" target="blank"> {/* https://blog.betrybe.com/react/react-icons/ */}
                     <BsLinkedin size={20}/>
                 </a>
                 <a href="https://github.com/AlexandreR4ngel" target="blank">
