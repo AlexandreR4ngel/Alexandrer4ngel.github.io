@@ -5,11 +5,13 @@ import './App.style.css';
 
 function App() {
   return (
-    <div id='divAppMaior'>
-      <Header />
-      <div className='divPrincipal'>
-        <Section />
-        <Main />
+    <div id='divAppGrad'>
+      <div id='divAppMaior'>
+        <Header />
+        <div className='divPrincipal'>
+          <Section />
+          <Main />
+        </div>
       </div>
     </div>
   );

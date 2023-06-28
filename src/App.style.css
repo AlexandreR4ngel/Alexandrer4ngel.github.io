@@ -1,9 +1,18 @@
+#divAppGrad {
+    border: 1px solid white;
+    width: 82vw;
+    height: 72vh;
+    margin: auto;
+    margin-top: 4%;
+    display: flex;
+    justify-content: center;
+}
+
 #divAppMaior {
     border: 1px solid white;
     width: 80vw;
     height: 70vh;
     margin: auto;
-    margin-top: 4%;
 }
 
 .divPrincipal {
