@@ -1,5 +1,13 @@
+#divAppMaior {
+    border: 1px solid white;
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    margin-top: 5%;
+}
+
 .divPrincipal {
     display: flex; /* https://www.alura.com.br/artigos/css-guia-do-flexbox?gclid=Cj0KCQjw4s-kBhDqARIsAN-ipH0HC9kui6aa1P4XftzCiED-CF3GzKIHquiPAyELKqTsst00dUre5IgaAoc4EALw_wcB */
     flex-direction: row;
-    height: 92vh; /*https://www.alura.com.br/artigos/guia-de-unidades-no-css */
+    height: 100%; /*https://www.alura.com.br/artigos/guia-de-unidades-no-css */
 }

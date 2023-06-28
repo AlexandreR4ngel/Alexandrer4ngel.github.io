@@ -1,10 +1,10 @@
-import { useEffect } from 'react';
+// import { useEffect } from 'react';
 import './Header.style.css';
-import { BsLinkedin, BsGithub } from "react-icons/bs"; // https://react-icons.github.io/react-icons/icons?name=bs
+import { BsLinkedin, BsGithub, BsInstagram, BsFillEnvelopeFill } from "react-icons/bs"; // https://react-icons.github.io/react-icons/icons?name=bs
 
 export default function Header() {
 
-	useEffect(() => {
+	/* useEffect(() => {
 		const divSobre = document.getElementsByClassName('divSobre')[0];
         divSobre.style.display = "none"
         const divQuali = document.getElementsByClassName('divQuali')[0];
@@ -21,12 +21,12 @@ export default function Header() {
         } else {
             divSobre.style.display = "none"
         }
-    }
+    } */
 
     return (
         <div className='SectionHeader'>
             <div className='divHeader'>
-                <button
+                {/* <button
                     value="divSobre"
                     onClick={ hiddenDiv }
                 >
@@ -45,14 +45,23 @@ export default function Header() {
                     onClick={ hiddenDiv }
                 >
                     Projetos
-                </button>
+                </button> */}
 
                 <a href="https://www.linkedin.com/in/alexandre-magno-rangel-193842222/" target="blank">
-                    <BsLinkedin />
+                    <BsLinkedin size={20}/>
                 </a>
                 <a href="https://github.com/AlexandreR4ngel" target="blank">
-                    <BsGithub />
+                    <BsGithub size={20}/>
                 </a>
+
+                <a href="https://instagram.com/_alexandre__rangel?igshid=NGExMmI2YTkyZg==" target="blank">
+                    <BsInstagram size={20}/>
+                </a>
+
+                <a href="https://instagram.com/_alexandre__rangel?igshid=NGExMmI2YTkyZg==" target="blank"> {/* BOTAR LINK DO EMAIL */}
+                    <BsFillEnvelopeFill size={20}/>
+                </a>
+
             </div>
         </div>
     )

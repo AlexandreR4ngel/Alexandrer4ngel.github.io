@@ -1,9 +1,18 @@
 .SectionMain {
-    width: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 50%;
+    border: 1px solid white;
+}
+
+h3 {
+    margin-left: 4%;
+}
+
+p {
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 /* .divSobre {
